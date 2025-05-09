@@ -1,0 +1,4 @@
+type = "job"
+
+[entrypoint]
+prod = ".venv/bin/python3 src/main.py"
