@@ -1,4 +1,4 @@
-from blaxel.jobs import bl_job
+from blaxel.jobs import bl_start_job
 import logging
 
 logger = logging.getLogger(__name__)
@@ -6,4 +6,4 @@ logger = logging.getLogger(__name__)
 def my_job(lastname: str = None, firstname: str = None) -> None:
     logger.info(f"Hello, world {firstname} {lastname}!")
 
-bl_job.start(my_job)
+bl_start_job.start(my_job)
