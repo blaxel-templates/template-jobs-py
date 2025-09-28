@@ -960,7 +960,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "blaxel", extras = ["core", "telemetry"], specifier = "==0.2.15" }]
+requires-dist = [{ name = "blaxel", extras = ["core", "telemetry"], specifier = "==0.2.19" }]
 
 [package.metadata.requires-dev]
 dev = [{ name = "ruff", specifier = ">=0.8.2" }]
