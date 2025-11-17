@@ -13,7 +13,7 @@ tracer = trace.get_tracer(__name__)
 
 def my_job(name: str) -> None:
     with tracer.start_as_current_span(name="myjob"):
-        logger.info(f"Hello, {name}")
+        logger.info(f"Hello, {name}!")
         step1()
         step2()
         step3()
