@@ -1,12 +1,10 @@
 {
     "tasks": [
         {
-            "firstname": "John",
-            "lastname": "Doe"
+            "name": "John Doe"
         },
         {
-            "lastname": "Doe",
-            "firstname": "Jane"
+            "name": "Jane Doe"
         }
     ]
 }
